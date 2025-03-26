@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanica Dashboard</title>
+    <style>
+        body {
+            background-color: #f5f5f5; /* Aesthetic grey background */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        button {
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Soft blue buttons */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3; /* Slightly darker hover color */
+        }
+        .content {
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Botanica’s Dashboard!</h1>
+    </header>
+    <main>
+        <button onclick="showAbout()">About</button>
+        <button onclick="authorize()">Authorize</button>
+    </main>
+    <section id="about" class="content" style="display: none;">
+        <h2>About Botanica</h2>
+        <p>Botanica is a bot made by Ah1rdy! Use its fun commands to keep your server active 👀.</p>
+        <p>Enjoy!</p>
+        <button onclick="hideAbout()">Back</button>
+    </section>
+    <footer class="content">
+        <p>If you find bugs, please report them on our social server!</p>
+        <p>Type !about in Botanica and tap the blue text to join!</p>
+    </footer>
+
+    <script>
+        function showAbout() {
+            document.getElementById('about').style.display = 'block';
+        }
+
+        function hideAbout() {
+            document.getElementById('about').style.display = 'none';
+        }
+
+        function authorize() {
+            alert('Authorization process is under development!');
+        }
+    </script>
+</body>
+</html>
