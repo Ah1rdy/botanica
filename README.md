@@ -17,26 +17,14 @@ About Section: Learn all about Botanica’s features and fun commands.
 
 Authorization: Effortlessly connect Botanica to your Discord server.
 
-Bug Reporting: Quickly report any issues via the !about command.
+Bug Reporting: Quickly report any issues via the !help command.
 
 Installation 🚀
 Currently, the dashboard is under development! Stay tuned for updates on how to use it.
 
-Contribution Guide 🤝
-We welcome contributions to make Botanica Dashboard even better. If you have ideas or suggestions:
-
-Fork the repository.
-
-Create a branch for your feature: git checkout -b feature-name.
-
-Commit your changes: git commit -m "Added a feature".
-
-Push to the branch: git push origin feature-name.
-
-Open a pull request.
 
 Reporting Issues 🐞
-Found a bug or have feedback? Type !about in Botanica, and follow the link to join our social server. Tap the blue text to connect with us!
+Found a bug or have feedback? Type !help in Botanica, and follow the link to join our social server. Tap the blue text to connect with us!
 
 Future Plans ✨
 Here’s what’s coming:
@@ -50,6 +38,6 @@ Real-time usage stats for Botanica in your server.
 Acknowledgments 🙌
 Big thanks to:
 
-The Discord bot community for inspiration and support.
+python ofiical server for helping me fix alot of caches.
++ All users who contribute and provide feedback!
 
-All users who contribute and provide feedback!
